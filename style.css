@@ -1,31 +1,20 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+
 body {
     padding:5%;
-}
-section {
-
-    background-color: rgb(87, 155, 85);
-    color:honeydew;
 }
 
 .upper{
     text-transform: uppercase;
+    
 }
 
-.whiten{
+.font{
 
-    color:honeydew;
+    font-family: 'Raleway', sans-serif;
 }
-
-.font1{
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
-
-.font2{
-
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
+  
 .size1{
 
     font-size: 40;
