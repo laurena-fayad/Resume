@@ -1,27 +1,75 @@
 <html>
-    <head>
-        <title> Certifications </title>
-    </head>
 
-    <body>
+  <head>
+    <title> Certifications </title>
 
-        <table>
-            <tr>
-              <td><img src="Azure.jpg" width="600"></td>
-              <td><img src="Python.png" width="600"></td>
-            </tr>
-            
-            <tr>
-              <td><img src="DV.png" width="600" ></td>
-              <td><img src="HCI.png" width="600"></td>
-            </tr>
+    <style>
+      div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 280px;
+      }
 
-            <tr>
-                <td><img src="SV.png" width="600" ></td>
-                <td><img src="NSX.png" width="600"></td>
-              </tr>
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
 
-          </table>
+      div.gallery img {
+        width: 270px;
+        height: auto;
+      }
 
-    </body>
-</html>
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="gallery">
+      <a target="_blank" href="Azure.jpg">
+        <center> <img src="Azure.jpg" alt="Azure Fundamentals" width="600" height="400"> </center>
+      </a>
+      <div class="desc">Microsoft Azure Fundamentals</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="Python.png">
+        <center> <img src="Python.png" alt="Python certification" width="600" height="400"> </center>
+      </a>
+      <div class="desc">Python for Beginners</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="DV.png">
+        <img src="DV.png" alt="Desktop Virtualization" width="600" height="400">
+      </a>
+      <div class="desc">VMware Desktop Virtualizaton</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="HCI.png">
+        <img src="HCI.png" alt="Hyperconverged Infrastructure" width="600" height="400">
+      </a>
+      <div class="desc">VMware Hyperconverged Infrastructure</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="SV.png">
+        <img src="SV.png" alt="Server Virtualization" width="600" height="400">
+      </a>
+      <div class="desc">VMware Server Virtualization</div>
+    </div>
+
+    <div class="gallery">
+      <a target="_blank" href="NSX.png">
+        <img src="NSX.png" alt="Network Virtualization" width="600" height="400">
+      </a>
+      <div class="desc">VMware Network Virtualization</div>
+    </div>
+
+  </body>
+</html> 
