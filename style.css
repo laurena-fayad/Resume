@@ -9,7 +9,12 @@ body {
 
     font-family: 'Raleway', sans-serif;
 }
-  
+
+.hr1{
+     border: 2px solid #555555;
+    border-radius: 5px;
+    }
+ 
 .size1{
 
     font-size: 30;
